@@ -17,10 +17,15 @@
             padding: 0 0.5rem;
             font-size: 1rem;
         }
+        .bg{
+            background-image: url("coc.jpg");
+            background-size: cover;
+            background-position: center;
+        }
     </style>    
 </head>
 
-<body class="bg-gray-200">
+<body class="bg">
     <form id="timpaForm">
         <div class="flex min-h-screen bg-gray-200 items-center justify-center ">
 
@@ -34,6 +39,7 @@
                         </svg>
                     </div>
                 </div>
+                
 
                 <div class="flex justify-center">
                     <div class="flex">
@@ -169,6 +175,7 @@
                     <img id="generatedImage" src="" alt="Generated Image" class="max-w-xs h-auto rounded-lg shadow-xl"
                         style="display: none;">
                 </div>
+                <audio id="myAudio" src="audio/lsd.mp3"></audio>         
             </div>
         </div>
     </form>

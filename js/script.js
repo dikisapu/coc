@@ -294,3 +294,11 @@ downloadButton.addEventListener("click", () => {
   link.download = "clash_of_timpa.png";
   link.click();
 });
+const generateButton = document.getElementById('generateButton');
+const myAudio = document.getElementById('myAudio');
+
+// Tambahkan event listener ke tombol
+generateButton.addEventListener('click', function() {
+    // Jalankan musik
+    myAudio.play();
+});
